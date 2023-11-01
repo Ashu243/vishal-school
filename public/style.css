@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #f1efef;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.container1 .heading {
+    height: 50%;
+    width: 100%;
+    padding: 75px;
+}
+
+.container1 .heading h2 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.container1 .images {
+    height: 50%;
+    overflow: hidden;
+    width: 100%;
+    margin: 30px;
+}
+
+.container1 .images img {
+    height: 50%;
+    width: 100%;
+    border-radius: 9px;
+}
+
+.container1 .images h5 {
+    margin-top: 80px;
+    color: rgb(93, 89, 89);
+    font-weight: bolder;
+}
+
+#span {
+    color: crimson;
+    font-weight: bolder;
+}
+
+#map {
+    transform: scale(1.4);
+}
+
+.timings {
+    margin-left: 140px;
+    margin-top: -50px;
+}
+
+.timings h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+table {
+    font-size: 18px;
+}
+
+table td {
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#contact {
+    color: rgb(42, 7, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+#contact h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.c-opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.c-opt .call h2 {
+    font-size: 25px;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 15px;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.card a{
+    width: 100%;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container1 .images {
+        height: 50%;
+        width: 90%;
+        margin-top: -15px;
+    }
+    .timings{
+        margin-left: auto;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
